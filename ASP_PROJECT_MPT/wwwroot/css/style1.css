@@ -1,0 +1,54 @@
+body {
+    font-family: 'Helvetica';
+    background: url(TebPWZ6.jpg);
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+form {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    border-radius: 60px;
+    padding: 20px;
+    width: 500px;
+    background: rgb(142, 65, 158);
+}
+
+input {
+    background: #00ffff;
+    color: #0696BB;
+    padding: 10px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 20px;
+    border-width: 0px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+button {
+    width: 100px;
+    background: rgb(255, 106, 0);   
+    align-content: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    border-width: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.href {
+
+}
+
+p {
+    text-align: center;
+
+}

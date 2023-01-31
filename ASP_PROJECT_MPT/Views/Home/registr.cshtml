@@ -1,0 +1,26 @@
+﻿@model ASP_PROJECT_MPT.Models.User
+@{
+    ViewBag.Title = "Регистрация";
+}
+<link rel="stylesheet" href="~/css/style1.css" />
+
+<form asp-action="registr" asp-controller="home">
+    <div class="bottom text-center">
+        <input type="text" asp-for="Login" placeholder="Login" class="form-control" />
+    </div>
+    <div class="bottom text-center">
+        <input type="text" asp-for="Email" placeholder="Email" class="form-control" />
+    </div>
+    <div class="bottom text-center">
+        <input type="password" asp-for="Password" placeholder="password" class="form-control" />
+    </div>
+    <div class="bottom text-center">
+        <input type="date" asp-for="DateOfBirthday" placeholder="Date" class="form-control" />
+    </div>
+    <div class="bottom text-center">
+        <input type="submit" value="Зарегистрироваться" class="btn btn-default" />
+    </div>
+    <div>
+        <p>Есть аккаунт?<a asp-action="auth">Авторизация</a></p>
+    </div>
+</form>
